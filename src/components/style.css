@@ -95,10 +95,6 @@
 }
 
 
-.icon{
-    background-image: url('./icons/edit.png');
-}
-
 .todo_text{
     overflow-wrap: break-word;
 }
