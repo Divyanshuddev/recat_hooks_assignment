@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.switch{
+  display: flex;
+  width: 100vh;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#light{
+  body{
+    background-color: white;
+  }
+  background-color: white;
+  .heading{
+    color: black;
+  }
+  .add_button{
+    box-shadow: 5px 5px 10px #181824;
+  }
+  .del_button{
+    box-shadow: 5px 5px 10px #181824;
+  }
+  .alter{
+    box-shadow: 5px 5px 10px #181824;
+  }
+
+}
+
+#dark{
+  background-color:#181824;
+}
+
+#light .todo{
+  
+  background-color: white;
+}
+
+#dark .todo{
+  background-color: #181824;
+}

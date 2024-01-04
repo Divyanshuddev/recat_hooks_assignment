@@ -1,0 +1,133 @@
+.page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.todo_input{
+    background-color: #2e3047;
+    color: white;
+    border: none;
+    width: 30vw;
+    min-height: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.heading{
+    color: white;
+}
+
+.add_button{
+    width: 5vw;
+    min-height: 80px;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #181824;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+    
+}
+
+.del_button{
+    width: 10vw;
+    min-height: 80px;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #181824;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+}
+
+.add_button:hover{
+    box-shadow: none;
+}
+
+.del_button:hover{
+    box-shadow: none;
+}
+
+.todo_items{
+    color: white;
+    flex-direction: row;
+}
+
+.todos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.todo_task{
+    background-color: #2e3047;
+    color: white;
+    border: none;
+    width: 35vw;
+    min-height: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+    gap: 20px;
+
+}
+
+
+.icon{
+    background-image: url('./icons/edit.png');
+}
+
+.todo_text{
+    overflow-wrap: break-word;
+}
+
+.alter{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #181824;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+}
+
+.alter:hover{
+    box-shadow: none;
+}
+
+.todo_checkbox{
+    width: 30px;
+    height: 30px;
+}
+
+.delete_all{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
